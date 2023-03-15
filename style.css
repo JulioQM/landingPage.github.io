@@ -1,0 +1,261 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    color: #464E47;
+    font-size: small;
+}
+
+p {
+    font-size: larger;
+}
+
+.contenedor {
+    opacity: 80%;
+    background-color: #F1FFFA;
+    display: flex;
+    gap: 3em;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.1%;
+    /*     margin: 0.6%;
+ */
+    /*   flex-direction: row; */
+}
+
+.contenedor .marca {
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    margin-right: 61%;
+}
+
+.marca {
+    /*     background-color: burlywood;
+ */
+    padding: 0.1%;
+    text-align: center;
+}
+
+.etq_inicio {
+    padding: 1%;
+    /*     background-color: #000000;
+ */
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.etq_conoceme {
+    /*     background-color: #464E47;
+ */
+    padding: 1%;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.suscribete {
+    /* background-color: brown; */
+    padding: 1%;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.etq_inicio:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+}
+
+.etq_conoceme:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+}
+
+.suscribete:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+}
+
+.inicio {
+    background-color: #568259;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+}
+
+.presentacion {
+    /*  background-color: #96E6B3; */
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    text-align: justify;
+    padding: 1%;
+    margin: 3%;
+}
+
+.imagen {
+    /*     background-color: brown;
+ */
+    width: 500px;
+    height: 300px;
+    align-self: center;
+    padding: 1%;
+}
+
+.conoceme {
+    background-color: #96E6B3;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.contAvatar {
+    /*     background-color: burlywood;
+ */
+    display: flex;
+    width: 30%;
+    height: 50%;
+    position: relative;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}
+
+.informacion {
+    /*     background-color: rgb(28, 37, 0);
+ */
+    width: 40%;
+    height: 50%;
+    align-self: center;
+    text-align: justify;
+    padding: 5%;
+    margin: 8%;
+}
+
+.hola {
+    /*     background-color: aqua;
+ */
+    text-align: center;
+    font-size: larger;
+}
+
+.footer {
+    background-color: rgb(255, 242, 0);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.footer .contacto {
+    width: 100%;
+    height: 60%;
+    background-color: #CCFCCB;
+    text-align: center;
+}
+
+.footer .contacto input {
+    width: 30%;
+    height: 10%;
+    /*     background-color: aqua;
+ */
+}
+
+.footer .contacto p {
+    font-size: larger;
+}
+
+.footer .pie {
+    background-color: #F1FFFA;
+    width: 100%;
+    height: 40%;
+}
+
+.iconos {
+    /*     background-color: #568259;
+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.echo {
+    /*     background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    gap: 3em;
+}
+
+.container {
+    margin-top: 1%;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 60%;
+    height: 50%;
+    gap: 2em;
+}
+
+.marca1 {
+    /* background-color: #464E47; */
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.atajos {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: aliceblue;
+}
+
+.redes {
+    /*     background-color: #96E6B3;
+ */
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: end;
+    margin-left: 5%;
+    margin-right: 5%;
+}
